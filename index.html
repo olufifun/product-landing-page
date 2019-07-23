@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
     <title>Product Landing Page</title>
+    <link rel="stylesheet" type="text/css" href="main.css" >
 </head>
+
 <body>
     <header id="header">
         <div class="logo">
@@ -11,18 +13,18 @@
               src="https://z-p3-scontent.flos9-1.fna.fbcdn.net/v/t1.0-9/39878945_292881541497189_544717340508422144_n.jpg?_nc_cat=107&_nc_oc=AQl-nxNiVyqG082UzD8d5-2ZvXY1Fh7j1Bhxff3m3DGCS2435BgNg25L9aYCZabhjUg&_nc_ht=z-p3-scontent.flos9-1.fna&oh=09ff79309a23bd9bf910feb565b283b3&oe=5DB08D74"
               alt="imperial life logo"
             />
-          </div>
-          <nav id="nav-bar">
+        </div>
+        <nav id="nav-bar">
             <ul>
                 <li><a class="nav-link" href="#about-us">About Us</a></li>
                 <li><a class="nav-link" href="#product-demo">Product Demo</a></li>
                 <li><a class="nav-link" href="#pricing">Pricing</a></li>
-              </ul>
-          </nav>
+            </ul>
+        </nav>
     </header>
 
     <section id="hero">
-        <h2>The Imperial Life</h2>
+        <h1>The Imperial Life</h1>
         <form id="form" action="https://www.freecodecamp.com/email-submit">
           <input
             name="email"
@@ -72,13 +74,14 @@
     </div>
     
     <section id="product-demo">
-            <iframe
-              id="video"
-              height="315"
-              src="https://www.youtube.com/watch?v=qGyIVHIhme4"
-              frameborder="0"
-              allowfullscreen
-            ></iframe>
+        <iframe
+        width="575"
+        height="323"
+        src="https://www.youtube.com/embed/G70iWdRj4Cs"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+        </iframe>
     </section>
 
     <section id="pricing">
@@ -115,7 +118,15 @@
               </ol>
               <button class="btn">Select</button>
             </div>
-          </section>
+    </section>
 
+    <footer>
+        <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <span>Copyright 2019, Imperial Life</span>
+    </footer>
 </body>
 </html>
